@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const barberShops = new Schema({
+const barberShop = new Schema({
   name: {
     type: String,
     required: [true, "Name is required"],
@@ -33,6 +33,6 @@ const barberShops = new Schema({
   },
 });
 
-barberShops.index({ geo: "2dsphere" });
+barberShop.index({ geo: "2dsphere" });
 
-module.exports = mongoose.model("BarberShops", barberShops);
+module.exports = mongoose.model("BarberShop", barberShop);

@@ -1,7 +1,11 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const collaborators = new Schema({
+const collaborator = new Schema({
+  barberShopId: {
+    type: mongoose.Types.ObjectId,
+    ref: "BarberShops",
+  },
   name: {
     type: String,
     required: [true, "Name is required"],
@@ -22,4 +26,4 @@ const collaborators = new Schema({
   },
 });
 
-module.exports = mongoose.model("Collaborators", collaborators);
+module.exports = mongoose.model("Collaborator", collaborator);

@@ -1,11 +1,7 @@
 const mongoose = require("mongoose");
 
-const URI = "";
-
-mongoose.set("useNewUrlParser", true);
-mongoose.set("useFindAndModify", false);
-mongoose.set("useCreateIndex", true);
-mongoose.set("useUnifiedTopology", true);
+const URI =
+  "mongodb+srv://jotapeemaria_db_user:Amoaallexia<3@cluster0.qgqeavz.mongodb.net/?appName=Cluster0";
 
 mongoose
   .connect(URI)

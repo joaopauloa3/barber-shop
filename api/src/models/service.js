@@ -1,10 +1,10 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const products = new Schema({
+const service = new Schema({
   barberShopId: {
     type: mongoose.Types.ObjectId,
-    ref: "BarberShop",
+    ref: "BarberShops",
   },
   title: {
     type: String,
@@ -21,4 +21,4 @@ const products = new Schema({
   },
 });
 
-module.exports = mongoose.model("Products", products);
+module.exports = mongoose.model("Service", service);
