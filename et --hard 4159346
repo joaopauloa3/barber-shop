@@ -1,0 +1,14 @@
+* [33mf19f8cd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Revert "Add service route"
+* [33m743b4c4[m Add service route
+* [33m5d22f1d[m Add service route
+* [33m7ac598a[m Add service route
+* [33m65a4312[m Add service route
+* [33m46a9651[m Add service route
+* [33mf8a6bac[m Add service route
+* [33m2ed5f7a[m Add service route
+* [33m72ebeb2[m Add service route
+* [33m3fc381b[m Add service route
+* [33m4159346[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m add models connection
+* [33mdef7b59[m add news models
+* [33m37796e6[m fix: removed nested repo from web/app and added full frontend
+* [33m36ac33a[m first commit

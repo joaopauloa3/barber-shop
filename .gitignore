@@ -1,2 +1,3 @@
 api/node_modules
 web/app/node_modules
+api/src/services/aws.js
